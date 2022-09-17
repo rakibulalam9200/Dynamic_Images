@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+
+.container{
+  display: grid;
+  /* grid-template-columns: repeat(3,1fr); */
+  grid-template-columns: repeat(3,150px);
+  justify-content: center;
+  grid-gap: 10px;
+}
+
+
+.box{
+  height: 200px;
+  width: 150px;
+  background-color: green;
+}
+
